@@ -1,11 +1,16 @@
 #!/bin/bash
 
-export PARTITIONS=3000
-export REPLICATION=6
+export TOPICS=10
+export PARTITIONS=10
+export REPLICATION=3
 
-export CERT=""
-export USER=""
-export PASSWORD=""
-export BROKERS=""
+export CERT=
+export PASSWORD=
+export USER=
+export BROKERS=
 
-export RPK=""
+export RPK=
+export FRANZ_BENCH=
+
+export K=
+export NAMESPACE=
